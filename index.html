@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Проверка адреса на попадание в зону доставки</title>
+    <title>Проверка адреса на попадание в зону</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <!--
         Укажите свой API-ключ. Тестовый ключ НЕ БУДЕТ работать на других сайтах.
@@ -17,9 +17,19 @@
             padding: 0;
             margin: 0;
         }
+		.txtAbout {
+			position: absolute;
+			z-index: 1;
+			bottom: 35px;
+			left: 10px;
+			font-family: cursive;
+			color: black;
+			font-size: 15pt;
+		}
     </style>
 </head>
 <body>
+<span class="txtAbout">Author: <a href="https://github.com/tokareru">https://github.com/tokareru</a></span>
 <div id="map"></div>
 </body>
 </html>

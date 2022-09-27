@@ -9961,8 +9961,8 @@ function init() {
                 deliveryPoint.geometry.setCoordinates(coords);
                 // Задаём контент балуна и метки.
                 deliveryPoint.properties.set({
-                    iconCaption: 'Доставка транспортной компанией',
-                    balloonContent: 'Cвяжитесь с оператором',
+                    iconCaption: '',
+                    balloonContent: '',
                     balloonContentHeader: ''
                 });
                 // Перекрашиваем метку в чёрный цвет.
@@ -9991,5 +9991,14 @@ function init() {
         url: 'data.json',
         dataType: 'json',
         success: onZonesLoad
-    });*/
+    });
+	$.ajax({
+        url: 'https://antalyahomes.com/tr/blog/haberler/yeni-ikamet-izni-basvurularina-kapatilan-mahalleler-hakkinda-beyanname',
+        dataType: 'html',
+        success: function(data){
+        	console.log(data);
+            }
+    });
+	
+	*/
 }
