@@ -2272,7 +2272,7 @@ window.jsondata = {
         ]
       },
       "properties": {
-        "description": "Beyoğlu",
+        "description": "Beyoğlu ŞEHİT MUHTAR AHALLESİ",
         "fill": "#ed4543",
         "fill-opacity": 0.5,
         "stroke": "#000000",
@@ -2496,7 +2496,7 @@ window.jsondata = {
         ]
       },
       "properties": {
-        "description": "Beylikdüzü BEYLİKDÜZÜOSB MAHALLESİ",
+        "description": "Beylikdüzü ÇUKUR MAHALLESİ",
         "fill": "#ed4543",
         "fill-opacity": 0.5,
         "stroke": "#000000",
@@ -2660,7 +2660,7 @@ window.jsondata = {
         ]
       },
       "properties": {
-        "description": "Beylikdüzü BEYLİKDÜZÜOSB MAHALLESİ",
+        "description": "Beyoğlu KAMER HATUN MAHALLESİ",
         "fill": "#ed4543",
         "fill-opacity": 0.5,
         "stroke": "#000000",
